@@ -1,0 +1,8 @@
+$default-font: ('Noto Sans', sans-serif, 'Noto Sans');
+//$heading-font: ('Saira Extra Condensed', sans-serif, 'Saira Extra Condensed');
+$big-font: ('Poppins', sans-serif, 'Poppins');
+//$section-title: ('League Gothic', sans-serif, 'League Gothic');
+
+body {
+  font-family: $default-font;
+}
