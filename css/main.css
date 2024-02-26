@@ -159,39 +159,39 @@ footer .footer-copyright p {
   color: #ffffff;
 }
 
-.callout-section {
+.intro-callout-section {
   background-color: #f2f2f2;
   padding: 5vh 5vw;
   margin: auto;
   width: 100%;
 }
-.callout-section .row {
+.intro-callout-section .row {
   margin: auto;
   width: 100%;
 }
-.callout-section .row .callout-header {
+.intro-callout-section .row .callout-header {
   margin-bottom: 5vh;
 }
-.callout-section .row .callout-header h3 {
+.intro-callout-section .row .callout-header h3 {
   font-size: 2.5em;
   font-family: "Poppins", sans-serif, "Poppins";
   margin-bottom: 2.5vh;
 }
 @media (min-width: 576px) {
-  .callout-section .row .callout-header h3 {
+  .intro-callout-section .row .callout-header h3 {
     font-size: 3em;
   }
 }
 @media (min-width: 768px) {
-  .callout-section .row .callout-header h3 {
+  .intro-callout-section .row .callout-header h3 {
     font-size: 4em;
   }
 }
-.callout-section .row .callout-cell-container {
+.intro-callout-section .row .callout-cell-container {
   width: 100%;
   margin: auto;
 }
-.callout-section .row .callout-cell {
+.intro-callout-section .row .callout-cell {
   padding: 5vh 2.5vw 2.5vh 2.5vw;
   margin: 0 5vw 0 0;
   background-color: #ffffff;
@@ -200,31 +200,31 @@ footer .footer-copyright p {
   border-color: #ff815b;
 }
 @media (min-width: 0px) {
-  .callout-section .row .callout-cell {
+  .intro-callout-section .row .callout-cell {
     margin-bottom: 10vh;
   }
 }
 @media (min-width: 992px) {
-  .callout-section .row .callout-cell {
+  .intro-callout-section .row .callout-cell {
     margin-bottom: 0;
   }
 }
-.callout-section .row .callout-cell h4 {
+.intro-callout-section .row .callout-cell h4 {
   font-weight: 700;
   font-size: 1.5em;
 }
-.callout-section .row .callout-cell p {
+.intro-callout-section .row .callout-cell p {
   margin-bottom: 10vh;
 }
-.callout-section .row .callout-cell .learn-more {
+.intro-callout-section .row .callout-cell .learn-more {
   background-color: #ff815b;
   border-color: #ff815b;
 }
-.callout-section .row .callout-cell .learn-more:hover {
+.intro-callout-section .row .callout-cell .learn-more:hover {
   background-color: #ff5b5b;
   border-color: #ff5b5b;
 }
-.callout-section .row .callout-cell a h4 {
+.intro-callout-section .row .callout-cell a h4 {
   font-size: 1em;
   font-weight: 400;
 }
@@ -252,45 +252,6 @@ footer .footer-copyright p {
 .our-mission-section .our-mission-float .learn-more:hover {
   background-color: #ff5b5b;
   border-color: #ff5b5b;
-}
-
-.about-callout-section {
-  height: 40vh;
-  background-color: #ff815b;
-  padding: 5vh 5vw;
-}
-.about-callout-section .about-callout-header h3 {
-  font: "Poppins", sans-serif, "Poppins";
-  font-weight: 700;
-  font-size: 3em;
-  color: #ffffff;
-}
-.about-callout-section .about-callout-body {
-  /* .callout-button{
-     text-decoration: none;
-     background-color:#ffffff;
-     color: $brand-orange;
-     width: 100%;
-     padding: 2vh 2vw;
-     border-radius: 10px 10px 10px 10px;
-   }*/
-}
-.about-callout-section .about-callout-body p {
-  font: "Noto Sans", sans-serif, "Noto Sans";
-  color: #ffffff;
-}
-.about-callout-section .about-callout-body .learn-more {
-  background-color: #fff;
-  border-color: #fff;
-  color: #ff815b;
-}
-.about-callout-section .about-callout-body .learn-more:hover {
-  background-color: #ff815b;
-  border-color: #fff;
-  color: #fff;
-}
-.about-callout-section .about-callout-body a h4 {
-  font-size: 1.25em;
 }
 
 .triple-card-section {
@@ -363,6 +324,45 @@ footer .footer-copyright p {
   color: #ff5b5b;
 }
 
+.about-callout-section {
+  height: 40vh;
+  background-color: #ff815b;
+  padding: 5vh 5vw;
+}
+.about-callout-section .about-callout-header h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  color: #ffffff;
+}
+.about-callout-section .about-callout-body {
+  /* .callout-button{
+     text-decoration: none;
+     background-color:#ffffff;
+     color: $brand-orange;
+     width: 100%;
+     padding: 2vh 2vw;
+     border-radius: 10px 10px 10px 10px;
+   }*/
+}
+.about-callout-section .about-callout-body p {
+  font: "Noto Sans", sans-serif, "Noto Sans";
+  color: #ffffff;
+}
+.about-callout-section .about-callout-body .learn-more {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff815b;
+}
+.about-callout-section .about-callout-body .learn-more:hover {
+  background-color: #ff815b;
+  border-color: #fff;
+  color: #fff;
+}
+.about-callout-section .about-callout-body a h4 {
+  font-size: 1.25em;
+}
+
 /* Custom default button */
 .btn-light,
 .btn-light:hover,
@@ -374,34 +374,46 @@ footer .footer-copyright p {
 /*
  * Base structure
  */
-.cover-section {
-  background-color: #b4b4b4;
+.contact-callout-section {
+  background-color: #333333;
   width: 100%;
+  height: 30vh;
+  margin-bottom: 10vh;
 }
-
-.cover-container {
+.contact-callout-section .cover-container {
+  margin: auto;
   max-width: 42em;
 }
+.contact-callout-section .cover-container h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  color: #ffffff;
+}
+.contact-callout-section .cover-container p {
+  font: "Noto Sans", sans-serif, "Noto Sans";
+  color: #ffffff;
+}
 
+/*
 .carousel {
-  margin-bottom: 20vh;
-}
-.carousel .carousel-inner {
-  border-radius: 2.5%;
-  box-shadow: 2rem 2rem 3rem rgba(0, 0, 0, 0.5);
-}
+    margin-bottom: 20vh;
+    .carousel-inner{
+      border-radius: 2.5%;
+      box-shadow: 2rem 2rem 3rem rgba(#000000, .5);
+    }
+  }
+  //Since positioning the image, we need to help out the caption 
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
 
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
-}
-
+  //Declare heights because of positioning of img element 
+  .carousel-item {
+    height: 32rem;
+  }
+  */
 .marketing {
   margin-bottom: 20vh;
 }
@@ -430,11 +442,13 @@ footer .footer-copyright p {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
+/*
+  @media (min-width: 40em) {
+    //Bump up size of carousel content 
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
   }
-}/*# sourceMappingURL=main.css.map */
+*//*# sourceMappingURL=main.css.map */
