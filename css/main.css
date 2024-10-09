@@ -166,6 +166,10 @@ footer .footer-copyright p {
   color: #ffffff;
 }
 
+.content {
+  background-color: #f2f2f2;
+}
+
 .intro-hero {
   position: relative;
   overflow: hidden;
@@ -187,19 +191,53 @@ footer .footer-copyright p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-image: linear-gradient(to right, #000000, rgba(51, 51, 51, 0.25));
   color: #fff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.01);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .intro-hero .hero-overlay .hero-content {
-  padding-left: 25%;
+  padding-left: 10%;
   margin: auto;
   width: 100%;
+}
+.intro-hero .hero-overlay .hero-content h2 {
+  font-size: 2em;
+  margin-bottom: 2vh;
+}
+@media (min-width: 768px) {
+  .intro-hero .hero-overlay .hero-content h2 {
+    margin-bottom: 5vh;
+    font-size: 3em;
+  }
+}
+.intro-hero .hero-overlay .hero-content p {
+  font-size: 1em;
+  margin-bottom: 2vh;
+}
+@media (min-width: 768px) {
+  .intro-hero .hero-overlay .hero-content p {
+    margin-bottom: 5vh;
+    font-size: 1.5em;
+  }
+}
+.intro-hero .hero-overlay .hero-content .btn {
+  font-size: 1em;
+  background-color: #ff815b;
+  border-color: #ff815b;
+}
+.intro-hero .hero-overlay .hero-content .btn:hover {
+  background-color: #ff5b5b;
+  border-color: #ff5b5b;
+}
+@media (min-width: 768px) {
+  .intro-hero .hero-overlay .hero-content .btn {
+    font-size: 1.25em;
+  }
 }
 
 .intro-callout-section {
@@ -277,6 +315,7 @@ footer .footer-copyright p {
   height: auto;
   min-height: 60vh;
   padding: 10vh 5vw;
+  margin-bottom: 10vh;
 }
 .our-mission-section .our-mission-float {
   background-color: #ffffff;
@@ -309,171 +348,8 @@ footer .footer-copyright p {
   border-color: #ff5b5b;
 }
 
-.triple-card-section {
-  padding: 10vh 0vw 10vh;
-}
-.triple-card-section .triple-card-header {
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 10vh;
-}
-.triple-card-section .triple-card-header h3 {
-  text-align: center;
-  font: "Poppins", sans-serif, "Poppins";
-  font-weight: 700;
-  font-size: 3em;
-}
-.triple-card-section .trip-card-contain {
-  margin: 0 5vw;
-}
-@media (min-width: 768px) {
-  .triple-card-section .trip-card-contain {
-    margin: 0;
-  }
-}
-.triple-card-section .trip-card-contain .trip-card {
-  margin-bottom: 5vh;
-  height: 60vh;
-  padding-bottom: 2.5vh;
-  box-shadow: 0px 5px 14px 0px rgba(0, 0, 0, 0.57);
-  border-radius: 30px 30px 30px 30px;
-  border: 0px solid #000000;
-  overflow: hidden;
-}
-@media (min-width: 576px) {
-  .triple-card-section .trip-card-contain .trip-card {
-    height: 70vh;
-    max-width: 600px;
-  }
-}
-@media (min-width: 768px) {
-  .triple-card-section .trip-card-contain .trip-card {
-    height: 50vh;
-    margin: 0 2vw;
-    width: 25vw;
-    max-width: 250px;
-  }
-}
-@media (min-width: 992px) {
-  .triple-card-section .trip-card-contain .trip-card {
-    width: 30vw;
-    max-width: 400px;
-  }
-}
-.triple-card-section .trip-card-contain .trip-card .img-container {
-  padding: 0;
-  margin-bottom: 5vh;
-}
-.triple-card-section .trip-card-contain .trip-card .img-container .img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-.triple-card-section .trip-card-contain .trip-card .trip-card-head h4 {
-  font: "Poppins", sans-serif, "Poppins";
-}
-.triple-card-section .trip-card-contain .trip-card .trip-card-body a {
-  color: #000000;
-}
-.triple-card-section .trip-card-contain .trip-card .trip-card-body a:hover {
-  color: #ff5b5b;
-}
-
-.contact-callout-section {
-  background-color: #333333;
-  width: 100%;
-  height: auto;
-  padding: 10vh 0;
-  margin-bottom: 10vh;
-}
-.contact-callout-section .cover-container {
-  margin: auto;
-  max-width: 42em;
-}
-.contact-callout-section .cover-container h3 {
-  font: "Poppins", sans-serif, "Poppins";
-  font-weight: 700;
-  font-size: 3em;
-  color: #ffffff;
-}
-.contact-callout-section .cover-container p {
-  font: "Noto Sans", sans-serif, "Noto Sans";
-  color: #ffffff;
-}
-
-.about-callout-section {
-  height: auto;
-  min-height: 40vh;
-  background-color: #ff815b;
-  padding: 5vh 5vw;
-  margin-bottom: 10vh;
-}
-.about-callout-section .about-callout-header h3 {
-  font: "Poppins", sans-serif, "Poppins";
-  font-weight: 700;
-  font-size: 3em;
-  color: #ffffff;
-}
-.about-callout-section .about-callout-body {
-  /* .callout-button{
-     text-decoration: none;
-     background-color:#ffffff;
-     color: $brand-orange;
-     width: 100%;
-     padding: 2vh 2vw;
-     border-radius: 10px 10px 10px 10px;
-   }*/
-}
-.about-callout-section .about-callout-body p {
-  font: "Noto Sans", sans-serif, "Noto Sans";
-  color: #ffffff;
-}
-.about-callout-section .about-callout-body .learn-more {
-  background-color: #fff;
-  border-color: #fff;
-  color: #ff815b;
-}
-.about-callout-section .about-callout-body .learn-more:hover {
-  background-color: #ff815b;
-  border-color: #fff;
-  color: #fff;
-}
-.about-callout-section .about-callout-body a h4 {
-  font-size: 1.25em;
-}
-
-/* Custom default button */
-.btn-light,
-.btn-light:hover,
-.btn-light:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-}
-
-/*
- * Base structure
- */
-/*
-.carousel {
-    margin-bottom: 20vh;
-    .carousel-inner{
-      border-radius: 2.5%;
-      box-shadow: 2rem 2rem 3rem rgba(#000000, .5);
-    }
-  }
-  //Since positioning the image, we need to help out the caption 
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
-
-  //Declare heights because of positioning of img element 
-  .carousel-item {
-    height: 32rem;
-  }
-  */
 .get-started {
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
 }
 .get-started .get-started-head {
   margin: auto;
@@ -516,4 +392,148 @@ footer .footer-copyright p {
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 5vh;
   background-color: #333333;
+}
+
+.contact-callout-section {
+  background-color: #333333;
+  width: 100%;
+  height: auto;
+  padding: 10vh 0;
+  margin-bottom: 10vh;
+}
+.contact-callout-section .cover-container {
+  margin: auto;
+  max-width: 42em;
+}
+.contact-callout-section .cover-container h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  color: #ffffff;
+}
+.contact-callout-section .cover-container p {
+  font: "Noto Sans", sans-serif, "Noto Sans";
+  color: #ffffff;
+}
+
+.about-callout-section {
+  height: auto;
+  min-height: 40vh;
+  background-color: #333333;
+  padding: 5vh 5vw;
+  margin-bottom: 10vh;
+}
+.about-callout-section .about-callout-header h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  color: #ffffff;
+}
+.about-callout-section .about-callout-body {
+  /* .callout-button{
+     text-decoration: none;
+     background-color:#ffffff;
+     color: $brand-orange;
+     width: 100%;
+     padding: 2vh 2vw;
+     border-radius: 10px 10px 10px 10px;
+   }*/
+}
+.about-callout-section .about-callout-body p {
+  font: "Noto Sans", sans-serif, "Noto Sans";
+  color: #ffffff;
+}
+.about-callout-section .about-callout-body .learn-more {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+.about-callout-section .about-callout-body .learn-more:hover {
+  background-color: #ff815b;
+  border-color: #ff815b;
+  color: #fff;
+}
+.about-callout-section .about-callout-body a h4 {
+  font-size: 1.25em;
+}
+
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+/*
+ * Base structure
+ */
+/*
+.carousel {
+    margin-bottom: 20vh;
+    .carousel-inner{
+      border-radius: 2.5%;
+      box-shadow: 2rem 2rem 3rem rgba(#000000, .5);
+    }
+  }
+  //Since positioning the image, we need to help out the caption 
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+  //Declare heights because of positioning of img element 
+  .carousel-item {
+    height: 32rem;
+  }
+  */
+.triple-box-section {
+  padding: 4rem 0;
+  background-image: linear-gradient(to right, #db5c35, #ff815b);
+}
+.triple-box-section .triple-box-header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.triple-box-section .triple-box-header h3 {
+  text-align: center;
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 2em;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .triple-box-section .triple-box-header h3 {
+    font-size: 3em;
+  }
+}
+.triple-box-section .box {
+  background-color: #ffffff;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  margin-bottom: 5vh;
+}
+.triple-box-section .box .box-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.triple-box-section .box .box-divider {
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+}
+.triple-box-section .box .box-content {
+  font-size: 1rem;
+}
+
+.contact-us-section {
+  padding: 4rem 0;
+}
+.contact-us-section h2 {
+  margin-bottom: 2rem;
+}
+.contact-us-section form .form-group {
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
