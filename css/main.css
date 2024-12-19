@@ -91,7 +91,7 @@ body {
 
 footer {
   background-color: #3C3C3C;
-  height: 50vh;
+  height: 30vh;
   overflow: hidden;
   width: 100%;
   margin: auto;
@@ -121,40 +121,53 @@ footer {
   }
   */
 }
+@media (min-width: 992px) {
+  footer {
+    height: 20vh;
+  }
+}
 footer .footer-top {
-  padding: 2.5vh 0;
+  padding: 1vh 0;
   margin: auto;
-  border-bottom: solid;
-  border-width: 2.5px;
-  border-color: #fff;
   width: 100%;
 }
 footer .footer-logo {
   margin: auto;
   text-align: center;
-  min-height: 20vh;
+  min-height: 10vh;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   footer .footer-logo {
-    height: 10vh;
+    height: 15vh;
+  }
+}
+@media (min-width: 1200px) {
+  footer .footer-logo {
+    height: 20vh;
   }
 }
 footer .footer-logo img {
-  height: 20vh;
+  height: 10vh;
+}
+@media (min-width: 992px) {
+  footer .footer-logo img {
+    height: 15vh;
+  }
+}
+@media (min-width: 1200px) {
+  footer .footer-logo img {
+    height: 20vh;
+  }
 }
 footer .footer-nav {
   margin: auto;
   text-align: center;
 }
-@media (min-width: 768px) {
-  footer .footer-nav {
-    margin-top: 5vh;
-  }
-}
 footer .footer-nav .footer-link {
   text-decoration: none;
-  padding: 2.5vw;
+  padding-bottom: 0.5vw;
   color: #fff;
+  display: block;
 }
 footer .footer-nav .footer-link:hover {
   color: #ff815b;

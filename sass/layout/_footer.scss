@@ -1,6 +1,6 @@
 footer {
     background-color: #3C3C3C;
-    height: 50vh;
+    height: 30vh;
     overflow: hidden;
     width: 100%;
    //padding: 2.5vh 0vw;
@@ -8,6 +8,9 @@ footer {
     text-align: center;
     display: grid;
     place-items: center;
+    @include breakpoint(large){
+      height: 20vh;
+    }
 
 
      /* .footer-cell{
@@ -33,36 +36,40 @@ footer {
     }
     */
     .footer-top{
-        padding: 2.5vh 0;
+        padding: 1vh 0;
         margin: auto;
-        border-bottom: solid;
-        border-width: 2.5px;
-        border-color: #fff;
         width: 100%;
     }
       .footer-logo{
         margin: auto;
         text-align: center;
-        min-height: 20vh;
+        min-height: 10vh;
         //min-height: 8vh;
-        @include breakpoint(medium){
-          height: 10vh;
+        @include breakpoint(large){
+          height: 15vh;
+        }
+        @include breakpoint(xlarge){
+          height: 20vh;
         }
         img {
-            height: 20vh;
+            height: 10vh;
+            @include breakpoint(large){
+              height: 15vh;
+            }
+            @include breakpoint(xlarge){
+              height: 20vh;
+            }
         }
   
       }
       .footer-nav{
         margin: auto;
         text-align: center;
-        @include breakpoint(medium){
-            margin-top: 5vh;
-          }
         .footer-link{
             text-decoration: none;
-            padding: 2.5vw;
+            padding-bottom: 0.5vw;
             color: #fff;
+            display: block;
             &:hover {
                 color: $brand-orange;
             }
