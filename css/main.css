@@ -266,7 +266,17 @@ footer .footer-copyright p {
   color: #ff815b;
   font-weight: 400;
 }
+.intro-callout-section .intro-callout-body .intro-callout-icon {
+  font-size: 5em;
+  color: #ff815b;
+  font-weight: 900;
+  display: flex; /* Add flexbox for easy centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-bottom: 5vh;
+}
 .intro-callout-section .intro-callout-body h4 {
+  font-weight: 700;
   font-size: 2em;
 }
 .intro-callout-section .intro-callout-body p {
@@ -348,13 +358,14 @@ footer .footer-copyright p {
 .get-started .get-started-body .get-started-quad p {
   margin-bottom: 5vh;
 }
-.get-started .get-started-body .get-started-quad .rounded-square {
-  height: 140px;
-  width: 140px;
-  border-radius: 30px 30px 30px 30px;
-  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
+.get-started .get-started-body .get-started-quad .get-started-icon {
+  font-size: 5em;
+  color: #ff815b;
+  font-weight: 900;
+  display: flex; /* Add flexbox for easy centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   margin-bottom: 5vh;
-  background-color: #333333;
 }
 
 .contact-callout-section {
@@ -407,13 +418,14 @@ footer .footer-copyright p {
 .services-description .services-desc-cell a p {
   line-height: 2em;
 }
-.services-description .services-desc-cell a .rounded-square {
-  height: 140px;
-  width: 140px;
-  border-radius: 30px 30px 30px 30px;
-  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
+.services-description .services-desc-cell a .services-desc-icon {
+  font-size: 5em;
+  color: #ff815b;
+  font-weight: 900;
+  display: flex; /* Add flexbox for easy centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   margin-bottom: 5vh;
-  background-color: #333333;
 }
 
 .about-callout-section {
