@@ -73,6 +73,9 @@ $gradient-to: rgba(#333333, 0.25); /* Dark grey with 0.5 opacity */
 .intro-callout-section{
   padding: 10vh 5vw;
   .intro-callout-heading{
+    display: flex; /* Add flexbox for easy centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     h3{
       font: $big-font;
       font-size: 3.5em;

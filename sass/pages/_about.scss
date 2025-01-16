@@ -1,0 +1,36 @@
+.about-heading-section{
+    background-color: $brand-orange;
+    height: auto;
+    min-height: 30vh;
+    padding: 10vh 5vw;
+  .about-heading-float{
+    background-color: #ffffff;
+    padding: 5vh 5vw;
+    width: 100%;
+    @include breakpoint (medium){
+      width: auto;
+      display: grid;
+      place-items: right;
+    }
+    @include breakpoint (large){
+      width: auto;
+    }
+    h1{
+      font: $big-font;
+      font-weight: 700;
+      font-size: 3em;
+    }
+  }
+  }
+
+.about-body-section{
+    padding: 10vh 10vw;
+    .about-tagline{
+        padding-bottom: 5vh;
+    }
+    .about-body-content{
+        h3{
+            font-weight: 700;
+        }
+    }
+}
