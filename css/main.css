@@ -7,6 +7,8 @@ body {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 /*@include breakpoint(small){
@@ -187,13 +189,13 @@ footer .footer-copyright p {
   background-color: #f2f2f2;
 }
 
+/* Black */
+/* Dark grey with 0.5 opacity */
 .intro-hero {
   position: relative;
   overflow: hidden;
   padding: 0;
   max-height: 70vh;
-  /* Black */
-  /* Dark grey with 0.5 opacity */
 }
 .intro-hero .hero-img-container {
   width: 100%;
@@ -293,14 +295,17 @@ footer .footer-copyright p {
 }
 
 .our-mission-section {
-  background-color: #ff815b;
+  background-image: url("../img/light-streaks-traffic.jpg"), linear-gradient(to right, #000000, rgba(51, 51, 51, 0.25));
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
   height: auto;
   min-height: 60vh;
   padding: 10vh 5vw;
   margin-bottom: 10vh;
 }
 .our-mission-section .our-mission-float {
-  background-color: #ffffff;
+  background-color: #333333;
   padding: 5vh 5vw;
   width: 100%;
 }
@@ -320,6 +325,10 @@ footer .footer-copyright p {
   font: "Poppins", sans-serif, "Poppins";
   font-weight: 700;
   font-size: 3em;
+  color: #ffffff;
+}
+.our-mission-section .our-mission-float p {
+  color: #ffffff;
 }
 .our-mission-section .our-mission-float .learn-more {
   background-color: #ff815b;
@@ -416,7 +425,10 @@ footer .footer-copyright p {
 }
 .services-description .services-desc-cell a:hover {
   position: relative;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
 }
 .services-description .services-desc-cell a h4 {
   font: "Poppins", sans-serif, "Poppins";
@@ -572,6 +584,9 @@ footer .footer-copyright p {
 }
 .sub-page-body-section .sub-page-tagline {
   padding-bottom: 5vh;
+}
+.sub-page-body-section .sub-page-tagline h2 {
+  line-height: 1.5em;
 }
 .sub-page-body-section .sub-page-body-content h3 {
   font-weight: 700;
