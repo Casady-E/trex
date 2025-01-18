@@ -382,7 +382,6 @@ footer .footer-copyright p {
   width: 100%;
   height: auto;
   padding: 10vh 0;
-  margin-bottom: 10vh;
 }
 .contact-callout-section .cover-container {
   margin: auto;
@@ -400,7 +399,7 @@ footer .footer-copyright p {
 }
 
 .services-description {
-  padding: 0vh 10vw;
+  padding: 10vh 10vw;
 }
 .services-description .services-desc-cell {
   display: block;
@@ -539,41 +538,41 @@ footer .footer-copyright p {
   margin-bottom: 5vh;
 }
 
-.about-heading-section {
+.sub-page-heading-section {
   background-color: #ff815b;
   height: auto;
   min-height: 30vh;
   padding: 10vh 5vw;
 }
-.about-heading-section .about-heading-float {
+.sub-page-heading-section .sub-page-heading-float {
   background-color: #ffffff;
   padding: 5vh 5vw;
   width: 100%;
 }
 @media (min-width: 768px) {
-  .about-heading-section .about-heading-float {
+  .sub-page-heading-section .sub-page-heading-float {
     width: auto;
     display: grid;
     place-items: right;
   }
 }
 @media (min-width: 992px) {
-  .about-heading-section .about-heading-float {
+  .sub-page-heading-section .sub-page-heading-float {
     width: auto;
   }
 }
-.about-heading-section .about-heading-float h1 {
+.sub-page-heading-section .sub-page-heading-float h1 {
   font: "Poppins", sans-serif, "Poppins";
   font-weight: 700;
   font-size: 3em;
 }
 
-.about-body-section {
+.sub-page-body-section {
   padding: 10vh 10vw;
 }
-.about-body-section .about-tagline {
+.sub-page-body-section .sub-page-tagline {
   padding-bottom: 5vh;
 }
-.about-body-section .about-body-content h3 {
+.sub-page-body-section .sub-page-body-content h3 {
   font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
