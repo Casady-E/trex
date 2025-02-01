@@ -249,11 +249,14 @@ footer .footer-copyright p {
 .intro-hero .hero-overlay .hero-content .btn {
   font-size: 1em;
   background-color: #ff815b;
-  border-color: #ff815b;
+  color: #ffffff;
+  text-decoration: none;
 }
 .intro-hero .hero-overlay .hero-content .btn:hover {
-  background-color: #ff5b5b;
-  border-color: #ff5b5b;
+  background-color: #333333;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
 }
 @media (min-width: 768px) {
   .intro-hero .hero-overlay .hero-content .btn {
@@ -272,6 +275,7 @@ footer .footer-copyright p {
 .intro-callout-section .intro-callout-heading h3 {
   font: "Poppins", sans-serif, "Poppins";
   font-size: 3.5em;
+  line-height: 1.5em;
 }
 .intro-callout-section .intro-callout-heading h3 b {
   color: #ff815b;
@@ -332,11 +336,14 @@ footer .footer-copyright p {
 }
 .our-mission-section .our-mission-float .learn-more {
   background-color: #ff815b;
-  border-color: #ff815b;
+  color: #ffffff;
+  text-decoration: none;
 }
 .our-mission-section .our-mission-float .learn-more:hover {
-  background-color: #ff5b5b;
-  border-color: #ff5b5b;
+  background-color: #333333;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .get-started {
@@ -391,6 +398,17 @@ footer .footer-copyright p {
   width: 100%;
   height: auto;
   padding: 10vh 0;
+}
+.contact-callout-section .contact-callout-button {
+  background-color: #ff815b;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-callout-section .contact-callout-button:hover {
+  background-color: #333333;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
 }
 .contact-callout-section .cover-container {
   margin: auto;
@@ -548,6 +566,17 @@ footer .footer-copyright p {
 }
 .contact-us-section form .form-group {
   margin-bottom: 5vh;
+}
+.contact-us-section form .contact-callout-button {
+  background-color: #ff815b;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-us-section form .contact-callout-button:hover {
+  background-color: #333333;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .sub-page-heading-section {

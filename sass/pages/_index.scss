@@ -56,10 +56,13 @@ $gradient-to: rgba(#333333, 0.25); /* Dark grey with 0.5 opacity */
     .btn{
       font-size: 1em;
       background-color: $brand-orange;
-      border-color: $brand-orange;
+      color: #ffffff;
+      text-decoration: none;
       &:hover{
-        background-color: $hover-red;
-        border-color: $hover-red;
+        background-color: #333333;
+        border-color: #ffffff;
+        border-width: 1px;
+        border-style: solid;
       }
       @include breakpoint(medium){
         font-size: 1.25em;
@@ -79,6 +82,7 @@ $gradient-to: rgba(#333333, 0.25); /* Dark grey with 0.5 opacity */
     h3{
       font: $big-font;
       font-size: 3.5em;
+      line-height: 1.5em;
       b{
         color: $brand-orange;
         font-weight: 400;
@@ -140,10 +144,13 @@ $gradient-to: rgba(#333333, 0.25); /* Dark grey with 0.5 opacity */
   }
   .learn-more{
     background-color: $brand-orange;
-    border-color: $brand-orange;
+    color: #ffffff;
+    text-decoration: none;
     &:hover{
-      background-color: $hover-red;
-      border-color: $hover-red;
+      background-color: #333333;
+      border-color: #ffffff;
+      border-width: 1px;
+      border-style: solid;
     }
   }
 }
@@ -200,6 +207,17 @@ p{
   width: 100%;
   height: auto;
   padding: 10vh 0;
+  .contact-callout-button{
+    background-color: $brand-orange;
+    color: #ffffff;
+    text-decoration: none;
+    &:hover{
+      background-color: #333333;
+      border-color: #ffffff;
+      border-width: 1px;
+      border-style: solid;
+    }
+  }
 .cover-container {
 margin: auto;
 max-width: 42em;
@@ -368,5 +386,17 @@ $gradient-to2: #ff815b;
     .form-group {
      margin-bottom: 5vh;
     }
+    .contact-callout-button{
+        background-color: $brand-orange;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover{
+          background-color: #333333;
+          border-color: #ffffff;
+          border-width: 1px;
+          border-style: solid;
+        }
+      } 
+    }
   }
-}
+
