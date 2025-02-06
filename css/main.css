@@ -3,7 +3,7 @@ body {
 }
 
 .content {
-  margin-top: 15vh;
+  margin-top: 10vh;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
@@ -514,45 +514,41 @@ footer .footer-copyright p {
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-.triple-box-section {
-  padding: 4rem 0;
-  background-image: linear-gradient(to right, #db5c35, #ff815b);
-}
-.triple-box-section .triple-box-header {
+.marketing-callout-section {
+  padding: 10vh 5vw;
+  background-image: url(../img/shipment-background.jpg);
   width: 100%;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 10vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.triple-box-section .triple-box-header h3 {
-  text-align: center;
+.marketing-callout-section .marketing-callout-header {
+  text-align: left;
+  overflow: hidden;
+}
+.marketing-callout-section .marketing-callout-header h3 {
   font: "Poppins", sans-serif, "Poppins";
   font-weight: 700;
   font-size: 2em;
   color: #ffffff;
+  margin-bottom: 5vh;
 }
 @media (min-width: 768px) {
-  .triple-box-section .triple-box-header h3 {
+  .marketing-callout-section .marketing-callout-header h3 {
     font-size: 3em;
   }
 }
-.triple-box-section .box {
-  background-color: #ffffff;
-  padding: 2rem;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
+.marketing-callout-section .marketing-callout-body hr {
+  width: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffffff;
   margin-bottom: 5vh;
+  opacity: 1;
 }
-.triple-box-section .box .box-heading {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-.triple-box-section .box .box-divider {
-  border-top: 1px solid #ccc;
-  margin: 1rem 0;
-}
-.triple-box-section .box .box-content {
-  font-size: 1rem;
+.marketing-callout-section .marketing-callout-body p {
+  font-size: 1.5em;
+  color: #ffffff;
 }
 
 .contact-us-section {
