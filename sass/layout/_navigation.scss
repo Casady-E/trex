@@ -63,6 +63,16 @@ box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.3);
         
     }
 }
+    .dropdown-menu{
+        .dropdown-item{
+            &.active, &:active{
+                color: #ffffff;
+                background-color: $brand-orange;
+                
+            
+        }
+    }
+    }
 }
 .nav-search{
         position:absolute;

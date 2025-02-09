@@ -82,6 +82,10 @@ body {
   color: #ffffff;
   background-color: #ff815b;
 }
+.navbar .navbar-nav .dropdown-menu .dropdown-item.active, .navbar .navbar-nav .dropdown-menu .dropdown-item:active {
+  color: #ffffff;
+  background-color: #ff815b;
+}
 .navbar .nav-search {
   position: absolute;
   right: 5%;
@@ -615,4 +619,41 @@ footer .footer-copyright p {
 }
 .sub-page-body-section .sub-page-body-content h3 {
   font-weight: 700;
+}
+
+.lithium-intro-section {
+  padding: 10vh 5vw;
+  background-image: url(../img/shipment-background.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.lithium-intro-section .lithium-intro-header {
+  text-align: left;
+  overflow: hidden;
+}
+.lithium-intro-section .lithium-intro-header h1 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 5vh;
+}
+@media (min-width: 768px) {
+  .lithium-intro-section .lithium-intro-header h1 {
+    font-size: 4em;
+  }
+}
+.lithium-intro-section .lithium-intro-body hr {
+  width: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffffff;
+  margin-bottom: 5vh;
+  opacity: 1;
+}
+.lithium-intro-section .lithium-intro-body p {
+  font-size: 1.5em;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
