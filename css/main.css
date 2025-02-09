@@ -656,4 +656,19 @@ footer .footer-copyright p {
 .lithium-intro-section .lithium-intro-body p {
   font-size: 1.5em;
   color: #ffffff;
+}
+
+.lithium-block-section {
+  padding: 10vh 15svw;
+  justify-content: center;
+  align-items: center;
+}
+.lithium-block-section .lithium-block-header h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+}
+.lithium-block-section .lithium-block-body p {
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */
