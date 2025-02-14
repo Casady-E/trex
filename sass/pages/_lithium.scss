@@ -38,10 +38,10 @@
 
 }
 .lithium-block-section{
-  padding: 10vh 15svw;
+  padding: 10vh 15vw;
   justify-content: center;
   align-items: center;
-  .lithium-block-header{
+  .lithium-block-heading{
     h3{
       font: $big-font;
       font-weight: 700;
@@ -53,5 +53,71 @@
     p{
       text-align: left;
     }
+  }
+}
+
+.lithium-process-section{
+  padding: 10vh 10vw;
+  width: 100%;
+  .lithium-process-header{
+    margin-bottom: 5vh;
+    h3{
+      font: $big-font;
+      font-size: 3em;
+      font-weight: 700;
+    }
+    hr{
+      width: 20vw;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #000000;
+      opacity: 1;
+    }
+  }
+  .lithium-process-body{
+    margin-bottom: 5vh;
+    h4{
+      font-weight: 700;
+    }
+    p{
+      @include breakpoint (large){
+      padding-right: 5vw;
+      }
+    }
+  }
+}
+.lithium-two-up-section{
+  .lithium-two-up-left{
+    display: none;
+    overflow: hidden;
+    img{
+      max-height: 50vh;
+    }
+    @include breakpoint (medium){
+      display: block;
+    }
+  }
+  .lithium-two-up-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10vw 10vh 10vw;
+    @include breakpoint (mediunm){
+      padding: 0 5vw 0 5vw;
+    }
+    .lithium-two-up-right-body{
+      flex-direction: column;
+      align-items: flex-start;
+    h3{
+      display: block;
+      text-align: left;
+      margin-bottom: 5vh;
+      font-weight: 700;
+    }
+    p{
+      display: block;
+      text-align: left;
+    }
+  }
   }
 }

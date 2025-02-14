@@ -659,16 +659,80 @@ footer .footer-copyright p {
 }
 
 .lithium-block-section {
-  padding: 10vh 15svw;
+  padding: 10vh 15vw;
   justify-content: center;
   align-items: center;
 }
-.lithium-block-section .lithium-block-header h3 {
+.lithium-block-section .lithium-block-heading h3 {
   font: "Poppins", sans-serif, "Poppins";
   font-weight: 700;
   font-size: 3em;
   text-align: center;
 }
 .lithium-block-section .lithium-block-body p {
+  text-align: left;
+}
+
+.lithium-process-section {
+  padding: 10vh 10vw;
+  width: 100%;
+}
+.lithium-process-section .lithium-process-header {
+  margin-bottom: 5vh;
+}
+.lithium-process-section .lithium-process-header h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-size: 3em;
+  font-weight: 700;
+}
+.lithium-process-section .lithium-process-header hr {
+  width: 20vw;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  opacity: 1;
+}
+.lithium-process-section .lithium-process-body {
+  margin-bottom: 5vh;
+}
+.lithium-process-section .lithium-process-body h4 {
+  font-weight: 700;
+}
+@media (min-width: 992px) {
+  .lithium-process-section .lithium-process-body p {
+    padding-right: 5vw;
+  }
+}
+
+.lithium-two-up-section .lithium-two-up-left {
+  display: none;
+  overflow: hidden;
+}
+.lithium-two-up-section .lithium-two-up-left img {
+  max-height: 50vh;
+}
+@media (min-width: 768px) {
+  .lithium-two-up-section .lithium-two-up-left {
+    display: block;
+  }
+}
+.lithium-two-up-section .lithium-two-up-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10vw 10vh 10vw;
+}
+.lithium-two-up-section .lithium-two-up-right .lithium-two-up-right-body {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.lithium-two-up-section .lithium-two-up-right .lithium-two-up-right-body h3 {
+  display: block;
+  text-align: left;
+  margin-bottom: 5vh;
+  font-weight: 700;
+}
+.lithium-two-up-section .lithium-two-up-right .lithium-two-up-right-body p {
+  display: block;
   text-align: left;
 }/*# sourceMappingURL=main.css.map */
