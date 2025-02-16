@@ -623,7 +623,7 @@ footer .footer-copyright p {
 
 .lithium-intro-section {
   padding: 10vh 5vw;
-  background-image: url(../img/shipment-background.jpg);
+  background-image: url(../img/battery-recycle-background.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -663,11 +663,19 @@ footer .footer-copyright p {
   justify-content: center;
   align-items: center;
 }
+.lithium-block-section .lithium-block-heading {
+  margin-bottom: 5vh;
+}
 .lithium-block-section .lithium-block-heading h3 {
   font: "Poppins", sans-serif, "Poppins";
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .lithium-block-section .lithium-block-heading h3 {
+    font-size: 3em;
+  }
 }
 .lithium-block-section .lithium-block-body p {
   text-align: left;
@@ -704,14 +712,21 @@ footer .footer-copyright p {
   }
 }
 
+.lithium-two-up-section {
+  padding: 0;
+}
 .lithium-two-up-section .lithium-two-up-left {
+  background-image: url(../img/recycle-cycle-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: none;
   overflow: hidden;
 }
 .lithium-two-up-section .lithium-two-up-left img {
   max-height: 50vh;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .lithium-two-up-section .lithium-two-up-left {
     display: block;
   }

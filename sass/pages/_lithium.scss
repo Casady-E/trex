@@ -1,7 +1,7 @@
 .lithium-intro-section{
   padding: 10vh 5vw;
   //background-image: linear-gradient(to right, $gradient-from2, $gradient-to2);
-  background-image: url(../img/shipment-background.jpg);
+  background-image: url(../img/battery-recycle-background.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,11 +42,15 @@
   justify-content: center;
   align-items: center;
   .lithium-block-heading{
+    margin-bottom: 5vh;
     h3{
       font: $big-font;
       font-weight: 700;
-      font-size: 3em;
+      font-size: 2em;
       text-align: center;
+      @include breakpoint (medium){
+        font-size: 3em;
+      }
     }
   }
   .lithium-block-body{
@@ -87,13 +91,18 @@
   }
 }
 .lithium-two-up-section{
+  padding: 0;
   .lithium-two-up-left{
+    background-image: url(../img/recycle-cycle-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: none;
     overflow: hidden;
     img{
       max-height: 50vh;
     }
-    @include breakpoint (medium){
+    @include breakpoint (large){
       display: block;
     }
   }
