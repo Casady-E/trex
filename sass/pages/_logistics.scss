@@ -1,0 +1,113 @@
+.logistics-intro-section{
+    padding: 10vh 5vw;
+    //background-image: linear-gradient(to right, $gradient-from2, $gradient-to2);
+    background-image: url(../img/shipment-background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .logistics-intro-header{
+      text-align: left;
+      overflow: hidden;
+      //margin-bottom: 10vh;
+      h1{
+        font: $big-font;
+        font-weight: 700;
+        font-size: 3em;
+        color: #ffffff;
+        margin-bottom: 5vh;
+        @include breakpoint(medium){
+          font-size: 4em;
+        }
+      }
+      }
+      .logistics-intro-body{
+        hr{
+          width: 50%;
+          border-style: solid;
+          border-width: 5px;
+          border-color: #ffffff;
+          margin-bottom: 5vh;
+          opacity: 1;
+        }
+        p{
+        font-size: 1.5em;
+        color: #ffffff;
+        }
+      }
+  
+  }
+  .logistics-services-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .logistics-services-container {
+            padding: 0;
+            position: relative;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            /* Remove whitespace between flex items */
+            margin: 0; /* Important! Remove default margins */
+        
+        
+        .logistics-services-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            //z-index: -1;
+            /* Fix for image scaling and overflow */
+            overflow: hidden; /* Key to preventing whitespace */
+        }
+        
+        .logistics-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Or contain if you prefer */
+        }
+        
+        .logistics-services-overlay {
+            padding: 10vh 10vw;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to right, $gradient-from, $gradient-to);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        .logistics-services-content{
+            text-align: center;
+        h3{
+            font: $big-font;
+            font-weight: 700;
+            font-size: 3em;
+            margin-bottom: 5vh;
+            color: #ffffff;
+        }
+        .logistics-services-icon{
+            font-size: 5em;
+            color: $brand-orange;
+            font-weight: 900;
+            margin-bottom: 5vh;
+        }
+        .logistics-services-button{
+            background-color: $brand-orange;
+            color: #ffffff;
+            &:hover{
+                background: none;
+                color: $brand-orange;
+                border-width: 2px;
+                border-style: solid;
+                border-color: $brand-orange;
+            }
+        }
+    }
+    }
+  }

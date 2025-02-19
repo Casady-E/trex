@@ -2,6 +2,11 @@ body {
   font-family: "Noto Sans", sans-serif, "Noto Sans";
 }
 
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0; /* Use a low weight for outlined */
+  font-size: 48px; /* Example size */
+}
+
 .content {
   margin-top: 10vh;
   margin-left: 0;
@@ -750,4 +755,111 @@ footer .footer-copyright p {
 .lithium-two-up-section .lithium-two-up-right .lithium-two-up-right-body p {
   display: block;
   text-align: left;
+}
+
+.logistics-intro-section {
+  padding: 10vh 5vw;
+  background-image: url(../img/shipment-background.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.logistics-intro-section .logistics-intro-header {
+  text-align: left;
+  overflow: hidden;
+}
+.logistics-intro-section .logistics-intro-header h1 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 5vh;
+}
+@media (min-width: 768px) {
+  .logistics-intro-section .logistics-intro-header h1 {
+    font-size: 4em;
+  }
+}
+.logistics-intro-section .logistics-intro-body hr {
+  width: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffffff;
+  margin-bottom: 5vh;
+  opacity: 1;
+}
+.logistics-intro-section .logistics-intro-body p {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.logistics-services-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logistics-services-section .logistics-services-container {
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* Remove whitespace between flex items */
+  margin: 0; /* Important! Remove default margins */
+}
+.logistics-services-section .logistics-services-container .logistics-services-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Fix for image scaling and overflow */
+  overflow: hidden; /* Key to preventing whitespace */
+}
+.logistics-services-section .logistics-services-container .logistics-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* Or contain if you prefer */
+}
+.logistics-services-section .logistics-services-container .logistics-services-overlay {
+  padding: 10vh 10vw;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #000000, rgba(51, 51, 51, 0.25));
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.logistics-services-section .logistics-services-container .logistics-services-content {
+  text-align: center;
+}
+.logistics-services-section .logistics-services-container .logistics-services-content h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 5vh;
+  color: #ffffff;
+}
+.logistics-services-section .logistics-services-container .logistics-services-content .logistics-services-icon {
+  font-size: 5em;
+  color: #ff815b;
+  font-weight: 900;
+  margin-bottom: 5vh;
+}
+.logistics-services-section .logistics-services-container .logistics-services-content .logistics-services-button {
+  background-color: #ff815b;
+  color: #ffffff;
+}
+.logistics-services-section .logistics-services-container .logistics-services-content .logistics-services-button:hover {
+  background: none;
+  color: #ff815b;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff815b;
 }/*# sourceMappingURL=main.css.map */
