@@ -94,8 +94,8 @@
       <div class="logistics-services-overlay">  
         <div class="logistics-services-content">
         <span class="material-symbols-outlined logistics-services-icon">delivery_truck_speed</span>
-        <h3>Road</h3>
-        <a href="logistics.html#road" class="btn logistics-services-button">Learn More</a>
+        <h3>Ground</h3>
+        <a href="logistics.html#ground" class="btn logistics-services-button">Learn More</a>
         </div>
         </div>
       </div>
@@ -143,122 +143,183 @@
     </div>
 </section>
 
-<section class="logistics-warehouse-section container-fluid" id="warehouse">
-  <div class="row">
-    <div class="col-12 logistics-warehouse-header">
+
+<section class="logistics-tabs-section container-fluid" id="warehouse">
+    <div class="col-12 logistics-tabs-header">
       <h3>Warehousing &amp; Distribution</h3>
       <p>We can store your stuff</p>
     </div>
-    <div class="col-12 logistics-warehouse-body">
-      <div class="row">
-        <div class="col-12 col-lg-4 logistics-warehouse-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-warehouse-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-warehouse-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
+    <div class="col-12 logistics-tabs-body">
+      
+  <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+      <li class="nav-item col-6 col-lg-3" role="presentation">
+          <button class="nav-link active" id="warehousing-tab" data-bs-toggle="tab" data-bs-target="#warehousing" type="button" role="tab" aria-controls="warehousing" aria-selected="true">Warehousing</button>
+      </li>
+      <li class="nav-item col-6 col-lg-3" role="presentation">
+          <button class="nav-link" id="fulfillment-tab" data-bs-toggle="tab" data-bs-target="#fulfillment" type="button" role="tab" aria-controls="fulfillment" aria-selected="false">Fulfillment</button>
+      </li>
+      <li class="nav-item col-6 col-lg-3" role="presentation">
+          <button class="nav-link" id="value-added-tab" data-bs-toggle="tab" data-bs-target="#value-added" type="button" role="tab" aria-controls="value-added" aria-selected="false">Value-Added</button>
+      </li>
+      <li class="nav-item col-6 col-lg-3" role="presentation">
+           <button class="nav-link" id="reverse-logistics-tab" data-bs-toggle="tab" data-bs-target="#reverse-logistics" type="button" role="tab" aria-controls="reverse-logistics" aria-selected="false">Reverse Logistics</button>
+      </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+      <div class="tab-pane show active" id="warehousing" role="tabpanel" aria-labelledby="warehousing-tab">
+        <h4>Warehousing</h4>
+        <p>This is the Home tab content.</p>
       </div>
-    </div>
+      <div class="tab-pane" id="fulfillment" role="tabpanel" aria-labelledby="fulfillment-tab">
+        <h4>Fulfillment</h4>
+          <p>This is the Profile tab content.</p>
+      </div>
+      <div class="tab-pane" id="value-added" role="tabpanel" aria-labelledby="value-added-tab">
+        <h4>Value-Added</h4>
+          <p>This is the Messages tab content.</p>
+      </div>
+       <div class="tab-pane" id="reverse-logistics" role="tabpanel" aria-labelledby="reverse-logistics-tab">
+        <h4>Reverse Logistics</h4>
+          <p>This is the Settings tab content.</p>
+      </div>
   </div>
+    </div>
 </section>
 
-<section class="logistics-road-section container-fluid" id="road">
-  <div class="row">
-    <div class="col-12 logistics-road-header">
-      <h3>Trucking Logistics - FTL(full truck load) and LTL(less than truck load)</h3>
+
+<section class="logistics-tabs-section container-fluid" id="ground">
+    <div class="col-12 logistics-tabs-header">
+      <h3>Ground Logistics</h3>
       <p>We can store your stuff</p>
     </div>
-    <div class="col-12 logistics-road-body">
-      <div class="row">
-        <div class="col-12 col-lg-4 logistics-road-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-road-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-road-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
+    <div class="col-12 logistics-tabs-body">
+      
+      <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link active" id="ftl-tab" data-bs-toggle="tab" data-bs-target="#ftl" type="button" role="tab" aria-controls="ftl" aria-selected="true">FTL(full truck load)</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link" id="ltl-tab" data-bs-toggle="tab" data-bs-target="#ltl" type="button" role="tab" aria-controls="ltl" aria-selected="false">LTL(less than truck load)</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link" id="rail-tab" data-bs-toggle="tab" data-bs-target="#rail" type="button" role="tab" aria-controls="rail" aria-selected="false">Rail</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+               <button class="nav-link" id="multimodal-tab" data-bs-toggle="tab" data-bs-target="#multimodal" type="button" role="tab" aria-controls="multimodal" aria-selected="false">Multimodal</button>
+          </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+          <div class="tab-pane show active" id="ftl" role="tabpanel" aria-labelledby="ftl-tab">
+            <h4>FTL(full truck load)</h4>
+            <p>This is the Home tab content.</p>
+          </div>
+          <div class="tab-pane" id="ltl" role="tabpanel" aria-labelledby="ltl-tab">
+            <h4>LTL(less than truck load)</h4>
+              <p>This is the Profile tab content.</p>
+          </div>
+          <div class="tab-pane" id="rail" role="tabpanel" aria-labelledby="rail-tab">
+            <h4>Rail</h4>
+              <p>This is the Messages tab content.</p>
+          </div>
+           <div class="tab-pane" id="multimodal" role="tabpanel" aria-labelledby="multimodal-tab">
+            <h4>Multimodal</h4>
+              <p>This is the Settings tab content.</p>
+          </div>
       </div>
-    </div>
-  </div>
+        </div>
 </section>
 
-<section class="logistics-air-section container-fluid" id="air">
-  <div class="row">
-    <div class="col-12 logistics-air-header">
+
+
+<section class="logistics-tabs-section container-fluid" id="air">
+    <div class="col-12 logistics-tabs-header">
       <h3>Air Logistics</h3>
       <p>We can store your stuff</p>
     </div>
-    <div class="col-12 logistics-air-body">
-      <div class="row">
-        <div class="col-12 col-lg-4 logistics-air-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-air-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-air-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
+    <div class="col-12 logistics-tabs-body">
+      
+      <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link active" id="international-air-tab" data-bs-toggle="tab" data-bs-target="#international-air" type="button" role="tab" aria-controls="international-air" aria-selected="true">International Air</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link" id="domestic-air-tab" data-bs-toggle="tab" data-bs-target="#domestic-air" type="button" role="tab" aria-controls="domestic-air" aria-selected="false">Domestic Air</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link" id="air-charter-tab" data-bs-toggle="tab" data-bs-target="#air-charter" type="button" role="tab" aria-controls="air-charter" aria-selected="false">Air Charter</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+               <button class="nav-link" id="air-consolidation-tab" data-bs-toggle="tab" data-bs-target="#air-consolidation" type="button" role="tab" aria-controls="air-consolidation" aria-selected="false">Air Consolidation</button>
+          </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+          <div class="tab-pane show active" id="international-air" role="tabpanel" aria-labelledby="international-air-tab">
+            <h4>International Air</h4>
+            <p>This is the Home tab content.</p>
+          </div>
+          <div class="tab-pane" id="domestic-air" role="tabpanel" aria-labelledby="domestic-air-tab">
+            <h4>Domestic Air</h4>
+              <p>This is the Profile tab content.</p>
+          </div>
+          <div class="tab-pane" id="air-charter" role="tabpanel" aria-labelledby="air-charter-tab">
+            <h4>Air Charter</h4>
+              <p>This is the Messages tab content.</p>
+          </div>
+           <div class="tab-pane" id="air-consolidation" role="tabpanel" aria-labelledby="air-consolidation-tab">
+            <h4>Air Consolidation</h4>
+              <p>This is the Settings tab content.</p>
+          </div>
       </div>
-    </div>
-  </div>
+        </div>
 </section>
 
 
-<section class="logistics-sea-section container-fluid" id="sea">
-  <div class="row">
-    <div class="col-12 logistics-sea-header">
+
+<section class="logistics-tabs-section container-fluid" id="sea">
+    <div class="col-12 logistics-tabs-header">
       <h3>Sea Logistics</h3>
       <p>We can store your stuff</p>
     </div>
-    <div class="col-12 logistics-sea-body">
-      <div class="row">
-        <div class="col-12 col-lg-4 logistics-sea-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-sea-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
-        <div class="col-12 col-lg-4 logistics-sea-services">
-          <h4>Hello</h4>
-          <hr>
-          <p>Here is a description of the services</p>
-        </div>
+    <div class="col-12 logistics-tabs-body">
+      
+      <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link active" id="fcl-tab" data-bs-toggle="tab" data-bs-target="#fcl" type="button" role="tab" aria-controls="fcl" aria-selected="true">FCL(full container load)</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link" id="lcl-tab" data-bs-toggle="tab" data-bs-target="#lcl" type="button" role="tab" aria-controls="lcl" aria-selected="false">LCL(less than container load)</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+              <button class="nav-link" id="project-cargo-tab" data-bs-toggle="tab" data-bs-target="#project-cargo" type="button" role="tab" aria-controls="project-cargo" aria-selected="false">Project Cargo</button>
+          </li>
+          <li class="nav-item col-6 col-lg-3" role="presentation">
+               <button class="nav-link" id="sea-consolidation-tab" data-bs-toggle="tab" data-bs-target="#sea-consolidation" type="button" role="tab" aria-controls="sea-consolidation" aria-selected="false">Sea Consolidation</button>
+          </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+          <div class="tab-pane show active" id="fcl" role="tabpanel" aria-labelledby="fcl-tab">
+            <h4>FCL(full container load)</h4>
+            <p>This is the Home tab content.</p>
+          </div>
+          <div class="tab-pane" id="lcl" role="tabpanel" aria-labelledby="lcl-tab">
+            <h4>LCL(less than container load)</h4>
+              <p>This is the Profile tab content.</p>
+          </div>
+          <div class="tab-pane" id="project-cargo" role="tabpanel" aria-labelledby="project-cargo-tab">
+            <h4>Project Cargo</h4>
+              <p>This is the Messages tab content.</p>
+          </div>
+           <div class="tab-pane" id="sea-consolidation" role="tabpanel" aria-labelledby="sea-consolidation-tab">
+            <h4>Sea Consolidation</h4>
+              <p>This is the Settings tab content.</p>
+          </div>
       </div>
-    </div>
-  </div>
+        </div>
 </section>
+
 
     <footer class="footer-section container-fluid">
         <div class="row footer-top">
-    
           
         <div class="col-12 col-sm-12 col-md-12 col-lg-4 footer-nav footer-copyright">
           <p>&copy;2025 Prescience. All Rights Reserved.</p>

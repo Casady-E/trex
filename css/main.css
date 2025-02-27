@@ -862,4 +862,53 @@ footer .footer-copyright p {
   border-width: 2px;
   border-style: solid;
   border-color: #ff815b;
+}
+
+.logistics-tabs-section {
+  padding: 15vh 5vw 0 5vw;
+}
+.logistics-tabs-section .logistics-tabs-header {
+  padding: 0;
+}
+.logistics-tabs-section .logistics-tabs-header h3 {
+  font: "Poppins", sans-serif, "Poppins";
+  font-weight: 700;
+  font-size: 3em;
+}
+.logistics-tabs-section .logistics-tabs-header p {
+  font-size: 1.5em;
+}
+.logistics-tabs-section .logistics-tabs-body {
+  padding: 0;
+}
+.logistics-tabs-section .logistics-tabs-body .nav-tabs .nav-item .nav-link {
+  padding: 5vh 5vw;
+  font-weight: 700;
+  font-size: 1.5em;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #000000;
+  border-left: 1px solid #757575;
+  border-right: 1px solid #757575;
+  box-sizing: border-box;
+}
+.logistics-tabs-section .logistics-tabs-body .nav-tabs .nav-item .nav-link:hover {
+  background-color: #cecece;
+}
+.logistics-tabs-section .logistics-tabs-body .nav-tabs .nav-item .active {
+  color: #ffffff;
+  background-color: #ff815b;
+}
+.logistics-tabs-section .logistics-tabs-body .nav-tabs .nav-item .active:hover {
+  background-color: #ff815b;
+}
+.logistics-tabs-section .logistics-tabs-body .tab-content {
+  padding: 0;
+}
+.logistics-tabs-section .logistics-tabs-body .tab-content .tab-pane {
+  padding: 10vh 10vw;
+  color: #ffffff;
+  width: 100%;
+  background-color: #333333;
 }/*# sourceMappingURL=main.css.map */
