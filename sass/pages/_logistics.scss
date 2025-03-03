@@ -37,6 +37,21 @@
       }
   
   }
+  .logistics-tagline-section{
+    padding: 10vh 10vw;
+    .logistics-tagline{
+        padding-bottom: 5vh;
+        h2{
+        font-weight: 700;
+        font-size: 3em;
+        }
+    }
+    .logistics-tagline-content{
+        h3{
+            font-weight: 700;
+        }
+    }
+}
   .logistics-services-section{
     display: flex;
     justify-content: center;

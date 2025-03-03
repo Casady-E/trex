@@ -525,7 +525,7 @@ footer .footer-copyright p {
 
 .marketing-callout-section {
   padding: 10vh 5vw;
-  background-image: url(../img/shipment-background.jpg);
+  background-image: url(../img/recycle-and-shipment-background.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -792,6 +792,20 @@ footer .footer-copyright p {
 .logistics-intro-section .logistics-intro-body p {
   font-size: 1.5em;
   color: #ffffff;
+}
+
+.logistics-tagline-section {
+  padding: 10vh 10vw;
+}
+.logistics-tagline-section .logistics-tagline {
+  padding-bottom: 5vh;
+}
+.logistics-tagline-section .logistics-tagline h2 {
+  font-weight: 700;
+  font-size: 3em;
+}
+.logistics-tagline-section .logistics-tagline-content h3 {
+  font-weight: 700;
 }
 
 .logistics-services-section {
